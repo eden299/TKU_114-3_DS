@@ -43,12 +43,12 @@ public class ScoreMenu {
         int choice = -1;
 
         while (choice != 0) {
-            System.out.println("\n--- 產生成績選單 ---");
+
             System.out.println("1 : 顯示平均分數");
             System.out.println("2 : 顯示及格狀態");
             System.out.println("3 : 顯示等第");
             System.out.println("0 : 離開");
-            System.out.print("請選擇功能 (0-3)：");
+            System.out.print("請選擇功能 (0-3):");
             choice = scanner.nextInt();
 
             switch (choice) {
